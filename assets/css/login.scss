@@ -1,0 +1,41 @@
+
+.login {
+	background: url(~/assets/img/login-bg.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	bottom: 0   ;
+	left: 0;
+	img.logo {
+		position: fixed;
+		top: 12px;
+		left: 20px;
+	}
+	.login-row {
+		height: 100%;
+		flex-direction: column;
+	}
+	h1 {
+		font-size: 18px;
+	}
+}
+.forget {
+	text-align: right;
+	margin-top: 10px;
+}
+.el-card {
+	background-color: rgba(255, 255, 255, 0.5);
+	.el-form {
+		margin-top: 4%;
+		margin-bottom: 4%;
+		.captcha {
+			background-color: rgba(255, 255, 255, 0.5);
+			max-height: 36px;
+			cursor: pointer;
+		}
+		.login-btn {
+			width: 100%;
+		}
+	}
+}
